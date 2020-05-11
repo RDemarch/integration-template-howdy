@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+  <div class="overlay-intro fadeOutleft animated"><div id="loader"></div></div>
   <div class="container-fluid" id="home">
     <div class="overlay"></div>
     <header class="container-sm">
@@ -19,13 +21,20 @@
       </div>
     </header>
 
-    <section class="row w-75 mx-auto" id="text-header">
-      <div>
-        <h3 class="text-muted font-montserrat">HELLO, WORLD.</h3>
-        <h1 class="text-white">I am Jonathan Smith.<br>
+    <section class="row d-block w-50" id="text-header">
+      <div class="presentation">
+        <h3 class="font-montserrat-bold anime-intro fadeInUp animated">HELLO, WORLD.</h3>
+        <h1 class="text-white font-librebaskerville-bold anime-intro fadeInUp animated">I am Jonathan Smith.<br>
             Graphic & UI/UX Designer<br>
             Based in Manila Philippines.</h1>
       </div>
+        <ul class="p-0">
+            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated">MORE <a href="#about" class="font-librebaskerville-regular">About Me</a></li>
+            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated">VIEW <a href="#work" class="font-librebaskerville-regular">My Works</a></li>
+            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated">CONTACT <a href="#mail" class="font-librebaskerville-regular">By Email</a>
+
+        </ul>
+
     </section>
   </div>
 
