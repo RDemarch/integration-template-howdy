@@ -12,16 +12,38 @@
 
 <body>
 
-  <div class="overlay-intro fadeOutleft animated"><div id="loader"></div></div>
+  <!-- <div class="overlay-intro fadeOutleft animated"><div id="loader"></div></div> -->
   <div class="container-fluid" id="home">
     <div class="overlay"></div>
-    <header class="container-sm">
+    <header class="p-5 container-fluid 0 d-flex justify-content-between">
       <div class="main-logo">
         <a href="index.php">howdy</a>
       </div>
+      <nav class="navbar ">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-block">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
     </header>
 
-    <section class="row d-block w-50" id="text-header">
+    <section class="row d-block" id="text-header">
       <div class="presentation">
         <h3 class="font-montserrat-bold anime-intro fadeInUp animated">HELLO, WORLD.</h3>
         <h1 class="text-white font-librebaskerville-bold anime-intro fadeInUp animated">I am Jonathan Smith.<br>
