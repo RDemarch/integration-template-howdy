@@ -15,50 +15,54 @@
   <!-- <div class="overlay-intro fadeOutleft animated"><div id="loader"></div></div> -->
   <div class="container-fluid" id="home">
     <div class="overlay"></div>
-    <header class="p-5 container-fluid 0 d-flex justify-content-between">
+    <header class="p-5 container-fluid 0 d-block justify-content-between">
       <div class="main-logo">
         <a href="index.php">howdy</a>
       </div>
-      <nav class="navbar ">
-    <a class="navbar-brand" href="#">Menu</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav d-block">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+  <nav>
+    <div class="barmenu">
+      <p class="menu-nav font-montserrat-regular">Menu <span class="barre"><span></p>
     </div>
   </nav>
     </header>
 
     <section class="row d-block" id="text-header">
       <div class="presentation">
-        <h3 class="font-montserrat-bold anime-intro fadeInUp animated">HELLO, WORLD.</h3>
+        <h3 class="font-montserrat-bold anime-intro fadeInUp animated uppercase">Hello, World.</h3>
         <h1 class="text-white font-librebaskerville-bold anime-intro fadeInUp animated">I am Jonathan Smith.<br>
             Graphic & UI/UX Designer<br>
             Based in Manila Philippines.</h1>
       </div>
         <ul class="p-0">
-            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated">MORE <a href="#about" class="font-librebaskerville-regular">About Me</a></li>
-            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated">VIEW <a href="#work" class="font-librebaskerville-regular">My Works</a></li>
-            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated">CONTACT <a href="#mail" class="font-librebaskerville-regular">By Email</a>
+            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated uppercase">More <a href="#about" class="font-librebaskerville-regular nouppercase">About Me</a></li>
+            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated uppercase">View <a href="#work" class="font-librebaskerville-regular nouppercase">My Works</a></li>
+            <li class="font-montserrat-bold d-block d-md-inline-block mx-3 anime-intro fadeInUp animated uppercase">Contact <a href="#mail" class="font-librebaskerville-regular nouppercase">By Email</a>
 
         </ul>
 
     </section>
   </div>
+  <section class="about container-fluid">
+      <div class="w-50 vh-100 bg-about"></div>
+      <div class="about-part">
+        <div class="about-profile w-50 h-100">
+            <header>
+              <h3 class="font-montserrat-bold uppercase part">About</h3>
+              <h1 class="title font-librebaskerville-bold">More About Me.</h1>
+              <p class="font-montserrat-regular sous-texte ">Lorem ipsum Ut eiusmod ex magna sit dolor esse
+                 adipisicing minim ad cupidatat eu veniam nostrud
+                 mollit laboris sunt magna velit culpa consectetur
+                 nostrud consectetur labore sed do.</p>
+
+
+            </header>
+
+        </div>
+        <div class="about-service">
+
+
+        </div>
+  </section>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
