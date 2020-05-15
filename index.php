@@ -12,7 +12,7 @@
 
 <body>
 
-  <!-- <div class="overlay-intro fadeOutleft animated"><div id="loader"></div></div> -->
+  <div class="overlay-intro fadeOutleft animated"><div id="loader"></div></div> 
   <div class="container-fluid" id="home">
     <div class="overlay"></div>
     <header class="p-5 container-fluid 0 d-block justify-content-between">
